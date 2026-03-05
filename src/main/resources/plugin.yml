@@ -1,0 +1,11 @@
+name: ChickenKeySync
+version: '1.0-SNAPSHOT'
+main: me.waterarchery.key.sync.ChickenKeySync
+api-version: '1.21'
+authors: [WaterArchery]
+folia-supported: true
+depend:
+  - ExcellentCrates
+  - nightcore
+libraries:
+  - redis.clients:jedis:7.3.0
