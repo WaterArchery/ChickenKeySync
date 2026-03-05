@@ -21,7 +21,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @Slf4j
-public class PlayerJoinEvents implements Listener {
+public class PlayerJoinListeners implements Listener {
 
     private final ExecutorService executorService = Executors.newSingleThreadExecutor();
 
